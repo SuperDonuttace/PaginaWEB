@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: beige;
+    font-family: Tahoma;
+}
+
+
+.header { 
+    background-color: #a9dca1;
+    padding: 20px;
+}
+
+.nav {
+    text-align: center;
+    font-size: 20px;
+    word-spacing: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.nav a {
+    transition: color 0.3s ease, transform 0.3s ease; 
+    display: inline-block;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: #ffffff;
+    transform: scale(1.1);
+    
+}
+
+
+
+
+
+
+
+
+
+.intro{
+    background-image: url('/Fotos/ciber2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 5%;
+}
+
+.contenido h1{
+    background-color: rgba(255, 255, 255, 0.3);
+    font-size: 50px;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.contenido p{
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.3); /* Fondo blanco con opacidad */
+    padding: 10px; /* Ajusta el espacio dentro del recuadro */
+    border-radius: 10px; /* Ajusta la redondez de las esquinas */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.titulo-contactos {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 25px;
+}
+
+.contenedor-formulario {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px; /* Espacio alrededor del contenedor */
+}
+
+.formulario {
+    flex: 1;
+    margin-right: 20px; /* Espacio entre el formulario y la imagen */
+}
+
+.imagen {
+    flex-shrink: 0; /* Evitar que la imagen se contraiga */
+    margin-top: auto; /* Alinear la imagen a la altura del formulario */
+    margin-left: 20px; /* Espacio entre la imagen y el borde de la pantalla */
+    margin-bottom: 50px;
+}
+
+
+
+.contacto {
+    border: 2px solid #3498db;
+    border-radius: 8px;
+    padding: 40px;
+    margin-top: 20px;
+    background-color: #cef88a;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.contacto label {
+    display: block;
+    font-weight: bold;
+    color: #555;
+}
+
+.contacto div {
+    margin-bottom: 20px;
+}
+
+.contacto input[type='text'],
+.contacto textarea {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+}
+
+.contacto input[type='text']:focus,
+.contacto textarea:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.1);
+}
+
+.contacto input[type='submit'] {
+    border: none;
+    padding: 12px 20px;
+    border-radius: 0px;
+    font-weight: bold;
+    color: white;
+    background-color: #3498db;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contacto input[type='submit']:hover {
+    background-color: #2980b9;
+}
+
+.contacto input[type='submit']:active {
+    background-color: #2c3e50;
+}
+
+
+
+
+
+
+
+
+
+
+.footer{
+    background-color: #5a5238;
+    color: #fff;
+    text-align: center; 
+    padding: 20px ;
+}
+
+.footer p a img{border-radius: 50%;}
+
+.redes p {
+    font-size: 20px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes img {margin-left: 10px;}
