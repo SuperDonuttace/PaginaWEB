@@ -42,7 +42,7 @@ body{
 
 
 .intro{
-    background-image: url('/Fotos/ciber2.jpg');
+    background-image: url('ciber2.jpg');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
