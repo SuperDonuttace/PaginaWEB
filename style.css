@@ -69,11 +69,21 @@ body{
 
 
 
+.main-index h1{
+    font-size: 50px;
+}
 
 
 
 
+.main-quisom h1 {
+    text-align: center;
+}
 
+
+.main-quisom p {
+    font-size: 70px;
+}
 
 
 
