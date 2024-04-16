@@ -4,20 +4,21 @@
 }
 
 body{
-    background-color: beige;
+    background-color: rgb(255, 255, 255);
     font-family: Tahoma;
+    
 }
 
 
-.header { 
-    background-color: #a9dca1;
-    padding: 20px;
+.header {
+    background-color: #d5f2fb;
+    padding: 30px;
 }
 
 .nav {
     text-align: center;
-    font-size: 20px;
-    word-spacing: 20px;
+    font-size: 25px;
+    word-spacing: 30px;
     color: rgb(0, 0, 0);
 }
 
@@ -39,90 +40,6 @@ body{
 
 
 
-
-
-.intro{
-    background-image: url('ciber2.jpg');
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    padding: 5%;
-}
-
-.contenido h1{
-    background-color: rgba(255, 255, 255, 0.3);
-    font-size: 50px;
-    text-align: center;
-    justify-content: center;
-    font-weight: bold;
-}
-.contenido p{
-    color: rgb(0, 0, 0);
-    font-size: 35px;
-    text-align: center;
-    justify-content: center;
-    font-weight: bold;
-    background-color: rgba(255, 255, 255, 0.3); /* Fondo blanco con opacidad */
-    padding: 10px; /* Ajusta el espacio dentro del recuadro */
-    border-radius: 10px; /* Ajusta la redondez de las esquinas */
-}
-
-
-
-
-
-
-
-
-.main-index{
-    text-align: center;
-}
-
-.main-content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-.secció{
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-}
-
-
-.secció img {
-    max-width: 20%;
-    margin-right: 20px;
-    margin-left: 15%;
-    margin-top: 5%;
-}
-
-.secció p {
-    flex-grow: 1;
-}
-
-.secció2 {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-}
-
-.secció2 img {
-    max-width: 30%;
-    margin-left: 20px;
-    margin-right: 15% ;
-    margin-bottom: 5%;
-    border-radius: 5%;
-}
-
-
-.secció2 p {
-    flex-grow: 1;
-    text-align: right;
-    margin-left: 10%;
-}
 
 
 
@@ -154,6 +71,51 @@ body{
 
 
 
+
+.main-serveis{
+    margin: 4%;
+
+}
+
+.main-serveis h1{
+    text-align: center;
+}
+
+.main-serveis h2{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .titulo-contactos {
     text-align: center;
     font-size: 35px;
@@ -163,30 +125,33 @@ body{
 .contenedor-formulario {
     display: flex;
     align-items: flex-start;
-    padding: 20px; /* Espacio alrededor del contenedor */
+    padding: 20px;
 }
 
 .formulario {
     flex: 1;
-    margin-right: 20px; /* Espacio entre el formulario y la imagen */
+    margin-right: 20px;
 }
 
 .imagen {
-    flex-shrink: 0; /* Evitar que la imagen se contraiga */
-    margin-top: auto; /* Alinear la imagen a la altura del formulario */
-    margin-left: 20px; /* Espacio entre la imagen y el borde de la pantalla */
+    flex-shrink: 0;
+    margin-top: auto;
+    margin-left: 20px;
     margin-bottom: 50px;
 }
 
 
 
+
+
+
+
 .contacto {
-    border: 2px solid #3498db;
+    border: 2px solid #c4e4fa;
     border-radius: 8px;
     padding: 40px;
     margin-top: 20px;
-    background-color: #cef88a;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    background-color: #d6d7d4;
 }
 
 .contacto label {
@@ -218,12 +183,13 @@ body{
 .contacto input[type='submit'] {
     border: none;
     padding: 12px 20px;
-    border-radius: 0px;
+    border-radius: 10px;
     font-weight: bold;
     color: white;
     background-color: #3498db;
     cursor: pointer;
     transition: background-color 0.3s;
+
 }
 
 .contacto input[type='submit']:hover {
@@ -243,21 +209,31 @@ body{
 
 
 
+
+
+
+
+
+
 .footer{
-    background-color: #5a5238;
-    color: #fff;
+    background-color: #f7f5f0;
+    color: #000000;
     text-align: center; 
     padding: 20px ;
 }
 
-.footer p a img{border-radius: 50%;}
+.footer p a img{
+    border-radius: 50%;
+    
+}
 
 .redes p {
-    font-size: 20px;
+    font-size: 15px;
     margin: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .redes img {margin-left: 10px;}
