@@ -1,46 +1,121 @@
-*{
+
+
+
+/*
+
+Muchas de las cosas que he hecho las he sacado de aqui:
+
+    - https://www.w3schools.com/html/default.asp
+    - https://programadorwebvalencia.com/cursos/
+    - ChatGPT
+
+
+*/
+
+
+
+
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     background-color: rgb(255, 255, 255);
     font-family: Tahoma;
-    
 }
 
-
 .header {
-    background-color: #d5f2fb;
-    padding: 30px;
+    background-color: rgb(235, 252, 255);
+    padding: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .nav {
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     font-size: 25px;
-    word-spacing: 30px;
     color: rgb(0, 0, 0);
+}
+
+.logo{
+    width: 100px;
+    border-radius: 50%;
+    opacity: 92%;
+}
+
+.nav-links {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    margin-right: 50px;
 }
 
 .nav a {
     transition: color 0.3s ease, transform 0.3s ease; 
-    display: inline-block;
     text-decoration: none;
+    margin: 0 10px;
+}
+
+.nav a.special {
+    margin: 0 20px;
 }
 
 .nav a:hover {
     color: #ffffff;
-    transform: scale(1.1);
-    
+    transform: scale(1.1);   
 }
 
 
 
 
 
+.hero-image {
+    position: relative;
+    background-image: url('ciber2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
 
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
 
+.hero-text h1 {
+    font-size: 120px;
+    margin-bottom: 10px;
+}
 
+.hero-text p {
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.hero-text button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    border: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 5px;
+    transition: color 0.3s ease, transform 0.3s ease; 
+}
+
+.hero-text button:hover {
+    background-color: #45a049;
+    transform: scale(1.1);  
+}
 
 
 
@@ -51,7 +126,6 @@ body{
 .main-quisom h1 {
     text-align: center;
 }
-
 
 .main-quisom p {
     font-size: 70px;
@@ -70,11 +144,14 @@ body{
 
 
 
-
-
 .main-serveis{
     margin: 4%;
+}
 
+.main-serveis li{
+    margin: 2%;
+    text-align: center;
+    list-style-type: none;
 }
 
 .main-serveis h1{
@@ -85,21 +162,6 @@ body{
     margin-top: 2%;
     margin-bottom: 2%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -146,12 +208,17 @@ body{
 
 
 
+
+
+
+
+
 .contacto {
-    border: 2px solid #c4e4fa;
+    border: 2px solid #ffffff;
     border-radius: 8px;
     padding: 40px;
     margin-top: 20px;
-    background-color: #d6d7d4;
+    background-color: #ecedec;
 }
 
 .contacto label {
@@ -215,8 +282,12 @@ body{
 
 
 
+
+
+
+
 .footer{
-    background-color: #f7f5f0;
+    background-color: #fbfaf9;
     color: #000000;
     text-align: center; 
     padding: 20px ;
@@ -224,7 +295,6 @@ body{
 
 .footer p a img{
     border-radius: 50%;
-    
 }
 
 .redes p {
@@ -236,4 +306,5 @@ body{
     
 }
 
-.redes img {margin-left: 10px;}
+.redes img {
+    margin-left: 10px;}
