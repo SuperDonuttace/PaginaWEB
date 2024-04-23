@@ -72,6 +72,11 @@ body {
 
 
 
+
+
+
+
+
 .hero-image {
     position: relative;
     background-image: url('ciber2.jpg');
@@ -123,13 +128,9 @@ body {
 
 
 
-.main-quisom h1 {
-    text-align: center;
-}
 
-.main-quisom p {
-    font-size: 70px;
-}
+
+
 
 
 
@@ -168,7 +169,20 @@ body {
 
 
 
+.main-quisom{
+    margin: 4%;
+}
 
+
+.main-quisom h1{
+    text-align: center;
+    margin: 2%
+}
+
+.main-quisom h2{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
 
 
 
@@ -188,6 +202,8 @@ body {
     display: flex;
     align-items: flex-start;
     padding: 20px;
+    max-width: 650px;
+    margin: 0 auto;
 }
 
 .formulario {
@@ -195,12 +211,6 @@ body {
     margin-right: 20px;
 }
 
-.imagen {
-    flex-shrink: 0;
-    margin-top: auto;
-    margin-left: 20px;
-    margin-bottom: 50px;
-}
 
 
 
