@@ -46,24 +46,24 @@ body {
     border-radius: 50%;
 }
 
-.nav-links {
+.nav-links{
     display: flex;
     flex-grow: 1;
     justify-content: center;
     margin-right: 50px;
 }
 
-.nav a {
+.nav a{
     transition: color 0.3s ease, transform 0.3s ease; 
     text-decoration: none;
     margin: 0 10px;
 }
 
-.nav a.special {
+.nav a.special{
     margin: 0 20px;
 }
 
-.nav a:hover {
+.nav a:hover{
     color: #ffffff;
     transform: scale(1.1);   
 }
@@ -77,36 +77,36 @@ body {
 
 
 
-.hero-image {
+.hero-image{
     position: relative;
     background-image: url('ciber2.jpg');
     background-size: cover;
     background-position: center;
-    height: 500px;
+    height: 600px;
 }
 
-.hero-text {
+.hero-text{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     color: rgb(255, 255, 255);
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
 }
 
-.hero-text h1 {
+.hero-text h1{
     font-size: 120px;
     margin-bottom: 10px;
 }
 
-.hero-text p {
+.hero-text p{
     font-size: 40px;
     margin-bottom: 20px;
     font-weight: bold;
 }
 
-.hero-text button {
+.hero-text button{
     padding: 10px 20px;
     font-size: 18px;
     background-color: #4CAF50;
@@ -117,29 +117,109 @@ body {
     transition: color 0.3s ease, transform 0.3s ease; 
 }
 
-.hero-text button:hover {
+.hero-text button:hover{
     background-color: #45a049;
     transform: scale(1.1);  
 }
 
 
+.bigcontenedor{
+    background-color: #cee8e0;
+    padding: 10px;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f0f8f5;
+    margin: 40px;
+    text-align: center;
+    align-items: center;
+}
+
+.bloque-izquierdo{
+    flex: 1;
+    margin-right: 20px;
+    padding-left: 10px;
+}
+
+.bloque-izquierdo img{
+    max-width: 35%;
+    margin-top: 10px
+}
+
+.bloque-derecho{
+    flex: 1;
+    padding-right: 10px;
+}
+
+.bloque-derecho h2{
+    margin: 10px 0;
+}
+
+.bloque-derecho button{
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #65b068;
+    border: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.bloque-derecho button:hover{
+    background-color: #4fa153;
+    transform: scale(1.1);
+}
 
 
 
+.contenedor2{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f0f8f5;
+    margin: 40px;
+    text-align: center;
+    align-items: center;
+}
 
+.bloque-izquierdo2{
+    flex: 1;
+    padding-left: 10px;
+}
 
+.bloque-izquierdo2 h2{
+    margin: 10px 0;
+}
 
+.bloque-izquierdo2 button{
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #65b068;
+    border: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
 
+.bloque-izquierdo2 button:hover{
+    background-color: #4fa153;
+    transform: scale(1.1);
+}
 
+.bloque-derecho2{
+    flex: 1;
+    padding-right: 10px;
+}
 
-
-
-
-
-
-
-
-
+.bloque-derecho2 img{
+    max-width: 30%;
+    margin-top: 10px;
+}
 
 
 
