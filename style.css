@@ -79,7 +79,7 @@ body {
 
 .hero-image{
     position: relative;
-    background-image: url('/images/ciber2.jpg');
+    background-image: url('images/ciber2.jpg');
     background-size: cover;
     background-position: center;
     height: 600px;
