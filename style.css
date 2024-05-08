@@ -217,7 +217,7 @@ body {
 }
 
 .bloque-derecho2 img{
-    max-width: 30%;
+    max-width: 35%;
     margin-top: 10px;
 }
 
@@ -259,6 +259,9 @@ body {
     margin: 2%
 }
 
+.main-quisom p{
+    padding: 10px;
+}
 
 .imagen-container{
     display: flex;
